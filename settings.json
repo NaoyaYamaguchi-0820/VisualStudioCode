@@ -1,0 +1,69 @@
+{
+    "git.scanRepositories": [
+        "https://github.com/NaoyaYamaguchi-0820/HelloGitHub"
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "vscode-icons-mac",
+    "editor.fontFamily": "HackGen, Consolas, 'Courier New', monospace",
+    "editor.renderWhitespace": "all",
+    "sync.gist": "7ea8ca1f7f69775eabc7f65cbabeed78",
+    "workbench.startupEditor": "newUntitledFile",
+    "http.proxyStrictSSL": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+
+    //タイトルバーの文字を変更
+    "window.title": "${dirty}${activeEditorShort} / ${rootName}", 
+    //拡張機能のオートアップデートをするかどうか
+    "extensions.autoUpdate": true,
+
+    //カラーテーマ
+    "workbench.colorTheme": "GitHub Dark",
+
+    //---------------------
+    //VSCode Vimの設定
+    //---------------------
+
+    //EasyMotionを使うかどうか
+    "vim.easymotion": true,
+    //EasyMotionを使う際に有効なキー
+    "vim.easymotionKeys": "sdfghkl",
+    //Leader Keyの設定
+    "vim.leader": "<Space>",
+
+    //SurRoundを使うかどうか
+    "vim.surround": true,
+
+    // システムのclipboardにコピー
+    "vim.useSystemClipboard": true,
+
+    //コマンドを表示するかどうか
+    "vim.showcmd": true,
+
+    // システム設定がハイコントラストのとき、VisualStudioCodeもハイコントラストにするかどうか
+    "window.autoDetectHighContrast": false,
+
+    //jjでインサートモードを抜けられるようにする
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    //文字列検索したときにハイライトするかどうか
+    "vim.hlsearch": true,
+    //*でカーソル下の単語を検索できるようにするかどうか
+    "vim.visualstar": true,
+    //折りたたまれた箇所をカーソルが乗り越えるかどうか
+    "vim.foldfix": true,
+
+    //カーソルの点滅アニメーション
+    "editor.cursorBlinking": "smooth",
+    //カーソルの移動アニメーションを滑らかにするかどうか(Trueだと重く感じるので、Falseがおすすめ)
+    "editor.cursorSmoothCaretAnimation": false,
+    "diffEditor.ignoreTrimWhitespace": false
+}
